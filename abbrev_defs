@@ -3,11 +3,11 @@
   '(
     ("for" "for (int i = 0; i < ; i++) {
 
-             }" nil :count 0)
+             }" nil :count 1)
     ("fore" "for ( : ) {
 
               }" nil :count 0)
-    ("sout" "System.out.println();" nil :count 0)
+    ("sout" "System.out.println();" nil :count 2)
     ("while" "while ( ) {
 
                }" nil :count 0)

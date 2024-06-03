@@ -8,6 +8,13 @@
 
 ;; Produce backtraces when errors occur: can be helpful to diagnose startup issues
 ;;(setq debug-on-error t)
+;; open the config file
+
+(defun open-init-file()
+  (interactive)
+  (find-file "~/.emacs.d/init.el"))
+;; bind the keyboard to <f2>
+(global-set-key (kbd "<f2>") 'open-init-file)
 
 (let ((minver "27.1"))
   (when (version< emacs-version minver)
